@@ -1,0 +1,213 @@
+@import url(autocomplete.css);
+@import url(general.css);
+@import url(popupbox.css);
+@import url(register.css);
+@import url(receipt.css);
+@import url(reports.css);
+@import url(tables.css);
+@import url(thickbox.css);
+@import url(datepicker.css);
+@import url(invoice.css);
+@import url(jquery-ui.structure.css);
+@import url(jquery-ui.theme.css);
+@import url(jquery-ui-timepicker-addon.css);
+@import url(jasny-bootstrap.css);
+@import url(bootstrap-datetimepicker.css);
+
+html, body
+{
+	height: 100%;
+}
+
+a.none
+{
+	text-decoration: none;
+}
+
+.topbar
+{
+	color: #eee;
+	font-size: 12px;
+	background: #182735;
+	padding: 5px;
+}
+
+/* .navbar
+{
+	min-height: 40px;
+	border-radius: 0;
+}
+
+.navbar-brand
+{
+	padding: 22px 15px;
+	height: 40px;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus
+{
+	color: #2C3E50;
+	background-color: #FFFFFF;
+}
+
+.navbar .menu-icon {
+	text-align: center;
+	font-size: 12px;
+}
+
+.navbar .menu-icon img {
+	width: 24px;
+}
+
+.wrapper
+{
+	min-height: 100%;
+	margin-bottom: -75px;
+	font-size: 14px;
+	line-height: 1.5;
+} */
+
+#title_bar
+{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 50px;
+}
+
+#title,
+#page_title {
+	font-size: 22px;
+	margin-top: 21px;
+	margin-bottom: 10.5px;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.1;
+	color: inherit;
+}
+
+#page_subtitle
+{
+	margin-top:8px;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+}
+
+#spinner
+{
+	float:right;	
+	display:none;
+}
+
+#feedback_bar
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-left:20px;
+	width: 100%;
+	z-index: 4;
+	line-height: 3.3;
+	text-align: center;
+}
+
+#home_module_list
+{
+	position: relative;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.module_item 
+{
+	padding: 10px;
+	min-width: 105px;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.module_item a
+{
+	display: block;
+}
+
+#config_wrapper
+{
+	text-align:center;
+}
+
+#config_info
+{
+	width:93%;
+	margin:0 auto;
+	padding:10px;
+	margin-bottom:30px;
+	margin-top:10px;
+	text-align:left;
+}
+
+#config_info .wide
+{
+	width: 30%;
+}
+
+#footer
+{
+	position:relative;
+	margin-top:25px;
+	margin-bottom:15px;	
+	text-align:center;
+	font-size:11px;
+	color:#777777;
+	clear:both;
+}
+
+input#search
+{
+	padding: 0px;
+}
+
+select#stock_location
+{
+	border: none;
+}
+
+#select_customer_form input, #select_supplier_form input
+{
+	width: 95%;
+}
+
+input.quantity, input.discount
+{
+	width: 40px;
+}
+
+a.rollover img
+{
+	padding: 3px;	
+}
+
+/* @media (min-width: 768px)
+{	
+	.navbar-nav > li > a
+	{
+		padding: 10px 10px 9px;
+	}
+} */
+
+@media print
+{    
+    .no-print, .no-print *
+	{
+        display: none !important;
+    }
+	a[href]:after {
+		content: none !important;
+	}
+}

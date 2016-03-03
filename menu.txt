@@ -1,0 +1,10 @@
+pelanggan = users
+item = tag
+item kit = tags
+pemasok - briefcase
+laporan = bar-chart
+penerimaan = archive
+penjualan = shopping-bag
+karyawan = user
+gift card = gift
+setting = cog

@@ -46,7 +46,7 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">                                
 							<div class="row-fluid user-row">
-								<img src="<?php echo base_url("assets/img/logo.png");?>" class="img-responsive" alt="Conxole Admin"/>
+								<h3 class="text-center"><b>OpensourcePOS</b></h3>
 							</div>
 						</div>
 						<div class="panel-body">

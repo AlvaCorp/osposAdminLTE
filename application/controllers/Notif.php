@@ -19,6 +19,8 @@ class Notif extends CI_Controller {
 			$data['stock']=$query->result();
 			$this->load->view('notif/stock_minimal',$data);
 			//echo $query->num_rows();
+		} else {
+			echo "||<li><a href='javascript:void(0)'><i class='fa fa-tag text-aqua'></i> Tidak ada stock item yang hampir habis</a></li>|<a href='".site_url('items')."'>Lihat item</a>";
 		}
 	}
 }

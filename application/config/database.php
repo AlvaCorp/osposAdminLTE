@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'loginpos.com',
-	'username' => 'u3352871_root',
-	'password' => 'logindulu123456',
-	'database' => 'u3352871_alpha',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'pos',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'ospos_',
 	'pconnect' => FALSE,
